@@ -109,7 +109,6 @@ Partial Class frmProduct
         Me.pnlProducts.Name = "pnlProducts"
         Me.pnlProducts.Size = New System.Drawing.Size(1053, 436)
         Me.pnlProducts.TabIndex = 4
-        Me.pnlProducts.Visible = False
         '
         'cmbProductCategory
         '
