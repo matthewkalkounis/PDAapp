@@ -63,7 +63,7 @@ Public Class Product
 #Region "Public Methods"
     Public Sub AddProduct()
         'Dim connect As String = String.Format()
-        Dim sConnection As New SqlConnection("server=localhost);uid=postgres;pwd=asassjsj;")
+        Dim sConnection As New SqlConnection("server=localhost;uid=postgres;pwd=asassjsj;")
         Dim command As SqlCommand = sConnection.CreateCommand
 
         Try
